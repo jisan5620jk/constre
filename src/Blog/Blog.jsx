@@ -10,7 +10,7 @@ const Blog = () => {
       <div className="Container">
         <div className="text-center">
           <h5 className="section-sub-title">WHAT WE DO</h5>
-          <h1 className="text-[30px] leading-10 md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
+          <h1 className="text-[30px] leading-9 md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
             Services What we Provide
           </h1>
           <p className="font-Archivo font-light text-[#575f66] md:w-2/4 m-auto pt-1 2xl:w-5/12 ">

@@ -19,7 +19,7 @@ const Banner = () => {
               <FaArrowRightLong className="inline-block ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-300" />
             </button>
           </Link>
-          <h1 className="banner-shape text-transparent font-bold text-9xl font-Yantramanav transition duration-300 absolute left-0 -rotate-90 top-1/2 -translate-y-2/4 -z-10">
+          <h1 className="banner-shape text-transparent font-bold text-8xl font-Yantramanav transition duration-300 absolute -left-1/2 -rotate-90 top-1/2 -translate-y-2/4 -z-10 sm:text-9xl md:-left-2/3">
             CONSTRE
           </h1>
         </div>

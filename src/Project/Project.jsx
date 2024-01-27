@@ -41,7 +41,7 @@ const Project = () => {
       <div className="Container flex flex-col lg:flex-row lg:items-center">
         <div className="flex-1">
           <h5 className="section-sub-title">LATEST WORK</h5>
-          <h1 className="text-[30px] leading-10 font-bold mb-4 font-Yantramanav text-white pt-3 md:text-5xl lg:text-4xl xl:text-5xl 2xl:w-[90%]">
+          <h1 className="text-[30px] leading-9 font-bold mb-4 font-Yantramanav text-white pt-3 md:text-5xl lg:text-4xl xl:text-5xl 2xl:w-[90%]">
             Recently Finished Projects Visit Our Works
           </h1>
         </div>

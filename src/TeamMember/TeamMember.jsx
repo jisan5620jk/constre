@@ -32,7 +32,7 @@ const TeamMember = () => {
       <div className="Container">
         <div className="text-center">
           <h5 className="section-sub-title">OUR EXPERTS</h5>
-          <h1 className="text-[30px] leading-10 md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
+          <h1 className="text-[30px] leading-9 md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
             Meet Our Expert Enginears
           </h1>
         </div>

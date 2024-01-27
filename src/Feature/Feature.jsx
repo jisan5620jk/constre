@@ -6,7 +6,7 @@ const Feature = () => {
     <section className="py-28 bg-PrimaryColor-0">
       <div className="Container">
         <h5 className="section-sub-title">WHO WE ARE ?</h5>
-        <h1 className="text-[30px] md:text-5xl font-bold mb-5 font-Yantramanav text-white pt-3 pb-7">
+        <h1 className="text-[30px] leading-9 md:text-5xl font-bold mb-5 font-Yantramanav text-white pt-3 pb-7">
           Top Constructor in USA
         </h1>
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">

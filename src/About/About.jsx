@@ -12,7 +12,7 @@ const About = () => {
         </div>
         <div className="flex-1">
           <h5 className="section-sub-title">ABOUT US</h5>
-          <h1 className="text-[30px] md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
+          <h1 className="text-[30px] leading-9 md:text-5xl font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-3">
             Build Your Full Projects Management
           </h1>
           <p className="font-Archivo text-[#575f66] font-light pt-2 mb-10">

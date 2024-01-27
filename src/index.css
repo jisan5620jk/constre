@@ -6,8 +6,12 @@
 
 html {
   scroll-behavior: smooth;
-  overflow-x: hidden;
   box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 /*Common Tailwind CSS Start Here*/
@@ -17,11 +21,11 @@ html {
 }
 
 .primary-button {
-  @apply relative bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-PrimaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-PrimaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300;
+  @apply relative bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-PrimaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-PrimaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
 }
 
 .primary-button2 {
-  @apply relative bg-PrimaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-SecondaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-SecondaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300;
+  @apply relative bg-PrimaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-SecondaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-SecondaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
 }
 
 .section-sub-title {
@@ -72,7 +76,6 @@ html {
   margin: 0 14px;
   cursor: pointer;
   transition: opacity 0.2s ease-in-out;
-  
 }
 
 .swiper-pagination-bullet-active {
@@ -87,14 +90,13 @@ html {
   bottom: 7%;
 }
 
-
-@media (min-width: 768px) and (max-width:991px)  {
+@media (min-width: 768px) and (max-width: 991px) {
   .swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal {
-  left: -6%;
-}
+  .swiper-pagination-custom,
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: -6%;
+  }
 }
 
 @keyframes criss-cross-left {
@@ -161,5 +163,20 @@ html {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@keyframes play-btn {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(254, 254, 254, 0.3),
+      0 0 0 10px rgba(254, 254, 254, 0.3), 0 0 0 20px rgba(254, 254, 254, 0.3);
+    box-shadow: 0 0 0 0 rgba(254, 254, 254, 0.3),
+      0 0 0 10px rgba(254, 254, 254, 0.3), 0 0 0 20px rgba(254, 254, 254, 0.3);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 10px rgba(254, 254, 254, 0.3),
+      0 0 0 20px rgba(254, 254, 254, 0.3), 0 0 0 30px rgba(254, 254, 254, 0);
+    box-shadow: 0 0 0 10px rgba(254, 254, 254, 0.3),
+      0 0 0 20px rgba(254, 254, 254, 0.3), 0 0 0 30px rgba(254, 254, 254, 0);
   }
 }
