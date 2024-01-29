@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <section className="bg-[url('/assets/images/banner/banner.jpg')] h-[30rem] bg-left sm:bg-center md:h-[800px] bg-cover items-center flex">
+    <section className="bg-[url('/assets/images/banner/banner.jpg')] overflow-hidden h-[30rem] bg-left sm:bg-center md:h-[800px] bg-cover items-center flex">
       <div className="Container grid items-center justify-between lg:grid-cols-2">
         <div className="relative z-10">
           <h5 className="inline-block font-Yantramanav text-SecondaryColor-0 text-lg font-medium relative pl-5 before:absolute before:top-2 before:left-0 before:h-[10px] before:w-[10px] before:bg-SecondaryColor-0">
@@ -26,7 +26,7 @@ const Banner = () => {
         <div className="hidden lg:block">
           <img
             src={BannerImg}
-            className="lg:-ml-2 max-w-[inherit] -mb-[6.1rem] -ml-12 "
+            className="lg:-ml-2 max-w-[inherit] -mb-[6.1rem] -ml-12 animate-[Dance_5s_alternate_infinite]"
             alt="Image"
           />
         </div>

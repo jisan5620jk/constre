@@ -180,3 +180,32 @@ body {
       0 0 0 20px rgba(254, 254, 254, 0.3), 0 0 0 30px rgba(254, 254, 254, 0);
   }
 }
+
+@keyframes Dance {
+  0% {
+    -webkit-transform: translateX(0px);
+  }
+
+  50% {
+    -webkit-transform: translateX(35px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0px);
+  }
+}
+
+
+@keyframes shrink {
+  0% {
+    -webkit-transform: translateY(20px)  translateX(-50%);
+  }
+
+  50% {
+    -webkit-transform: translateY(-20px)  translateX(-50%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px)  translateX(-50%);
+  }
+}

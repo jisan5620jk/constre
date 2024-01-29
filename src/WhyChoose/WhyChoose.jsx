@@ -17,9 +17,9 @@ const WhyChoose = () => {
               src={whyChooseImg}
               className="w-full ml-0 mb-7 lg:mb-0 lg:w-[inherit] lg:max-w-[inherit] lg:-ml-[28rem] 2xl:-ml-[21rem]"
             />
-            <div className="h-[120px] w-[120px] bg-SecondaryColor-0 flex items-center justify-center absolute bottom-6 right-20">
+            <div className="h-20 w-20 bg-SecondaryColor-0 flex items-center justify-center absolute bottom-10 right-8 sm:right-12 md:bottom-12 md:right-16 md:h-[120px] md:w-[120px] lg:bottom-6 lg:right-20">
               <Link to={"/"}>
-                <button className="h-16 w-16 rounded-full bg-white flex justify-center items-center text-2xl text-SecondaryColor-0 animate-[play-btn_8s_linear_infinite]">
+                <button className="h-8 w-8 rounded-full bg-white flex justify-center items-center text-lg text-SecondaryColor-0 animate-[play-btn_8s_linear_infinite] md:text-2xl md:h-16 md:w-16">
                   <IoPlaySharp />
                 </button>
               </Link>
