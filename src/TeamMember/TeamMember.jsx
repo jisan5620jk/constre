@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/navigation";
 import TeamImg from "/assets/images/team/team01.jpg";
@@ -9,7 +10,7 @@ import TeamMain from "./TeamMain";
 
 const TeamMember = () => {
   const settings = {
-    loop: true,
+    loop: false,
     spaceBetween: 30,
     speed: 400,
     initialSlide: 1,
@@ -28,7 +29,7 @@ const TeamMember = () => {
   };
 
   return (
-    <section className="py-28">
+    <section className="py-28 bg-[url('/assets/images/team/team-bg.jpg')] bg-no-repeat bg-center">
       <div className="Container">
         <div className="text-center">
           <h5 className="section-sub-title">OUR EXPERTS</h5>
@@ -38,7 +39,7 @@ const TeamMember = () => {
         </div>
 
         <div className="pt-11">
-          <Swiper {...settings}>
+          <Swiper {...settings} mousewheel={true} modules={[Mousewheel]}>
             <SwiperSlide>
               <TeamMain
                 teamBoxImg={TeamImg}
@@ -72,6 +73,26 @@ const TeamMember = () => {
             <SwiperSlide>
               <TeamMain
                 teamBoxImg={TeamImg}
+                teamBoxTitle={"John D. Alexon"}
+                teamBoxDesignation={"Civil Engineer"}
+                teamBoxIcon={<FaLinkedinIn />}
+                teamBoxIcon2={<FaPinterestP />}
+                teamBoxIcon3={<FaXTwitter />}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TeamMain
+                teamBoxImg={TeamImg3}
+                teamBoxTitle={"John D. Alexon"}
+                teamBoxDesignation={"Civil Engineer"}
+                teamBoxIcon={<FaLinkedinIn />}
+                teamBoxIcon2={<FaPinterestP />}
+                teamBoxIcon3={<FaXTwitter />}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <TeamMain
+                teamBoxImg={TeamImg2}
                 teamBoxTitle={"John D. Alexon"}
                 teamBoxDesignation={"Civil Engineer"}
                 teamBoxIcon={<FaLinkedinIn />}
