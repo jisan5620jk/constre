@@ -157,7 +157,7 @@ const Testimonial = () => {
             </div>
           </div>
           <div className="relative">
-            <img src={testiThumb} className="w-full mt-20 lg:max-w-[inherit] lg:w-[inherit]" />
+            <img src={testiThumb} className="w-full mt-20 lg:mt-0 lg:max-w-[inherit] lg:w-[inherit]" />
             <div className="absolute bottom-0 left-0">
               <div className="w-28 h-28  bg-[#ffffff6c] flex flex-col justify-center items-center relative z-10 left-2 bottom-2 before:absolute before:top-2 before:left-2 before:w-24 before:h-24 before:bg-PrimaryColor-0 before:-z-10 sm:w-[190px] sm:h-[190px] sm:left-5 sm:bottom-5 sm:before:w-[150px] sm:before:h-[150px] sm:before:top-5 sm:before:left-5">
                 <CountUp

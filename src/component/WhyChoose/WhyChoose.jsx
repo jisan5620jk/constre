@@ -6,8 +6,11 @@ import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoPlaySharp } from "react-icons/io5";
 import CountUp from "react-countup";
+import { useState } from "react";
+import FsLightbox from "fslightbox-react";
 
 const WhyChoose = () => {
+    const [toggler, setToggler] = useState(false);
   return (
     <section className="bg-[#f5f6f8] relative z-10">
       <div className="Container flex flex-col items-center bg-white lg:flex-row">
@@ -19,9 +22,18 @@ const WhyChoose = () => {
             />
             <div className="h-20 w-20 bg-SecondaryColor-0 flex items-center justify-center absolute bottom-10 right-8 sm:right-12 md:bottom-12 md:right-16 md:h-[120px] md:w-[120px] lg:bottom-6 lg:right-20">
               <Link to={"/"}>
-                <button className="h-8 w-8 rounded-full bg-white flex justify-center items-center text-lg text-SecondaryColor-0 animate-[play-btn_8s_linear_infinite] md:text-2xl md:h-16 md:w-16">
+                <button
+                  onClick={() => setToggler(!toggler)}
+                  className="h-8 w-8 rounded-full bg-white flex justify-center items-center text-lg text-SecondaryColor-0 animate-[play-btn_4s_linear_infinite] md:text-2xl md:h-16 md:w-16"
+                >
                   <IoPlaySharp />
                 </button>
+                <FsLightbox
+                  toggler={toggler}
+                  sources={[
+                    "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+                  ]}
+                />
               </Link>
             </div>
           </div>

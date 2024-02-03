@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Mousewheel } from 'swiper/modules';
 import "swiper/css";
 import "swiper/css/navigation";
 import TeamImg from "/assets/images/team/team01.jpg";
@@ -10,10 +9,9 @@ import TeamMain from "./TeamMain";
 
 const TeamMember = () => {
   const settings = {
-    loop: false,
+    loop: true,
     spaceBetween: 30,
     speed: 400,
-    initialSlide: 1,
     autoplay: true,
     breakpoints: {
       768: {
@@ -39,11 +37,11 @@ const TeamMember = () => {
         </div>
 
         <div className="pt-11">
-          <Swiper {...settings} mousewheel={true} modules={[Mousewheel]}>
+          <Swiper {...settings}>
             <SwiperSlide>
               <TeamMain
                 teamBoxImg={TeamImg}
-                teamBoxTitle={"John D. Alexon"}
+                teamBoxTitle={"Jisan khan"}
                 teamBoxDesignation={"Civil Engineer"}
                 teamBoxIcon={<FaLinkedinIn />}
                 teamBoxIcon2={<FaPinterestP />}
@@ -54,7 +52,7 @@ const TeamMember = () => {
               <TeamMain
                 teamBoxImg={TeamImg3}
                 teamBoxTitle={"John D. Alexon"}
-                teamBoxDesignation={"Civil Engineer"}
+                teamBoxDesignation={"Enteriar Designer"}
                 teamBoxIcon={<FaLinkedinIn />}
                 teamBoxIcon2={<FaPinterestP />}
                 teamBoxIcon3={<FaXTwitter />}
@@ -63,28 +61,8 @@ const TeamMember = () => {
             <SwiperSlide>
               <TeamMain
                 teamBoxImg={TeamImg2}
-                teamBoxTitle={"John D. Alexon"}
-                teamBoxDesignation={"Civil Engineer"}
-                teamBoxIcon={<FaLinkedinIn />}
-                teamBoxIcon2={<FaPinterestP />}
-                teamBoxIcon3={<FaXTwitter />}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <TeamMain
-                teamBoxImg={TeamImg}
-                teamBoxTitle={"John D. Alexon"}
-                teamBoxDesignation={"Civil Engineer"}
-                teamBoxIcon={<FaLinkedinIn />}
-                teamBoxIcon2={<FaPinterestP />}
-                teamBoxIcon3={<FaXTwitter />}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <TeamMain
-                teamBoxImg={TeamImg3}
-                teamBoxTitle={"John D. Alexon"}
-                teamBoxDesignation={"Civil Engineer"}
+                teamBoxTitle={"Mark Luice"}
+                teamBoxDesignation={"Project Maneger"}
                 teamBoxIcon={<FaLinkedinIn />}
                 teamBoxIcon2={<FaPinterestP />}
                 teamBoxIcon3={<FaXTwitter />}
