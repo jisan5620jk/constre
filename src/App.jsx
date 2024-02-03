@@ -12,6 +12,8 @@ import Feature from "./component/Feature/Feature";
 import Footer from "./component/Footer/Footer";
 import HeaderMenubar from "./component/HeaderMenubar/HeaderMenubar";
 import HeaderTopbar from "./component/HeaderTopbar/HeaderTopbar";
+import PricingInner from "./component/PricingInner/PricingInner";
+import PricingInnerFaq from "./component/PricingInner/PricingInnerFaq";
 import Project from "./component/Project/Project";
 import Service from "./component/Service/Service";
 import TeamMember from "./component/TeamMember/TeamMember";
@@ -36,6 +38,9 @@ function App() {
       <ContactForm />
       <ContactLocation />
       <BlogInner />
+      <PricingInner />
+
+      <PricingInnerFaq />
       <TeamMember />
       <Testimonial />
       <Brand />
