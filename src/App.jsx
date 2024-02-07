@@ -15,6 +15,7 @@ import HeaderTopbar from "./component/HeaderTopbar/HeaderTopbar";
 import PricingInner from "./component/PricingInner/PricingInner";
 import PricingInnerFaq from "./component/PricingInner/PricingInnerFaq";
 import Project from "./component/Project/Project";
+import ProjectDetials from "./component/ProjectDetails/ProjectDetials";
 import Service from "./component/Service/Service";
 import TeamMember from "./component/TeamMember/TeamMember";
 import Testimonial from "./component/Testimonial/Testimonial";
@@ -39,8 +40,8 @@ function App() {
       <ContactLocation />
       <BlogInner />
       <PricingInner />
-
       <PricingInnerFaq />
+      <ProjectDetials />
       <TeamMember />
       <Testimonial />
       <Brand />
