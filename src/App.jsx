@@ -17,6 +17,7 @@ import PricingInnerFaq from "./component/PricingInner/PricingInnerFaq";
 import Project from "./component/Project/Project";
 import ProjectDetials from "./component/ProjectDetails/ProjectDetials";
 import Service from "./component/Service/Service";
+import ServiceDetials from "./component/ServiceDetails/ServiceDetials";
 import TeamMember from "./component/TeamMember/TeamMember";
 import Testimonial from "./component/Testimonial/Testimonial";
 import WhyChoose from "./component/WhyChoose/WhyChoose";
@@ -42,6 +43,7 @@ function App() {
       <PricingInner />
       <PricingInnerFaq />
       <ProjectDetials />
+      <ServiceDetials />
       <TeamMember />
       <Testimonial />
       <Brand />
