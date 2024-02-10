@@ -1,4 +1,4 @@
-import Faq from "react-faq-component";
+import Faq from "react-faq-Component1";
 
 const data = {
   title: "FAQ (How it works)",
@@ -10,7 +10,6 @@ const data = {
               In maximus cursus lorem, nec laoreet velit eleifend vel. Ut aliquet mauris tortor, sed egestas libero interdum vitae.
               Fusce sed commodo purus, at tempus turpis.`,
     },
-
   ],
 };
 

@@ -1,7 +1,7 @@
 import projectDetailsimg from "/assets/images/project-details/project-details-thumb.jpg";
 import projectDetialsBoxImg from "/assets/images/project-details/project-details-box-thumb.jpg";
 import projectDetialsBoxImg2 from "/assets/images/project-details/project-details-box-thumb2.jpg";
-import { IoIosCheckmarkCircleOutline, IoMdCheckmark } from "react-icons/io";
+import { IoMdCheckmark } from "react-icons/io";
 
 const ServiceDetials = () => {
   return (
