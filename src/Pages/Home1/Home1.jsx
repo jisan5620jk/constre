@@ -2,8 +2,6 @@ import About from "../../Component1/About/About";
 import Banner from "../../Component1/Banner/Banner";
 import Blog from "../../Component1/Blog/Blog";
 import Brand from "../../Component1/Brand/Brand";
-import Breadcamp from "../../Component1/Breadcamp/Breadcamp";
-import ContactBox from "../../Component1/ContactInner/ContactBox";
 import Feature from "../../Component1/Feature/Feature";
 import Project from "../../Component1/Project/Project";
 import Service from "../../Component1/Service/Service";
@@ -20,8 +18,6 @@ const Home1 = () => {
       <Service />
       <WhyChoose />
       <Project />
-      <Breadcamp />
-      <ContactBox />
       <TeamMember />
       <Testimonial />
       <Brand />

@@ -21,7 +21,9 @@ const Project = () => {
     autoplay: true,
     breakpoints: {
       768: {
-        slidesPerView: 1,
+        slidesPerView: 2,
+
+        centeredSlides: false,
       },
       992: {
         slidesPerView: 3,

@@ -1,8 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Main/Main";
 import Home1 from "../Pages/Home1/Home1";
+import AboutInnerPage from "../Pages/InnerPage/About/AboutInnerPage";
 
-const Router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Main />,
@@ -11,8 +12,12 @@ const Router = createBrowserRouter([
         path: "/",
         element: <Home1 />,
       },
+      {
+        path: "/about",
+        element: <AboutInnerPage />
+      }
     ],
   },
 ]);
 
-export default Router;
+export default router;

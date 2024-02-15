@@ -79,7 +79,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    to={"/"}
+                    to={"/about"}
                     className="font-Yantramanav uppercase text-white font-medium text-base transition-all duration-500 hover:text-SecondaryColor-0 pr-12"
                   >
                     About

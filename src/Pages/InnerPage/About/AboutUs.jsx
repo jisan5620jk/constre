@@ -1,19 +1,34 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 import { MdOutlineCheckCircleOutline } from "react-icons/md";
-import aboutInnerImg from "/assets/images/about/about-inner-thumb.jpg"
-import aboutInnerImg2 from "/assets/images/about/about-inner-thumb2.jpg"
-import aboutInnerProfile from "/assets/images/about/about-author.jpg";
+import AboutUsImg from "/assets/images/about/about-inner-thumb.jpg"
+import AboutUsImg2 from "/assets/images/about/about-inner-thumb2.jpg"
+import AboutUsProfile from "/assets/images/about/about-author.jpg";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
 
-const AboutInner = () => {
+const AboutUs = () => {
+
+
+
+
+
+const newArray = ()=>{
+  alert("Mouse Enter")
+}
+
+
+
+
+
+
+
     return (
       <section className="bg-[url('/assets/images/about/about_bg2.jpg')] bg-center bg-no-repeat py-28">
         <div className="Container grid grid-cols-2">
           <div className="inline-block relative z-10">
-            <img src={aboutInnerImg} />
+            <img src={AboutUsImg} />
             <div className="absolute -bottom-10 -left-28 z-20">
-              <img src={aboutInnerImg2} />
+              <img src={AboutUsImg2} />
             </div>
             <div className="absolute bottom-28 left-28">
               <div className="w-[124px] h-[124px] px-4 rounded-full z-30 bg-white flex flex-col justify-center items-center relative before:absolute before:-top-2 before:-left-1 before:w-full before:h-full before:bg-SecondaryColor-0 before:rounded-full before:-z-10">
@@ -64,7 +79,7 @@ const AboutInner = () => {
             <div className="flex gap-5 mt-10">
               <div>
                 <Link to={"/"}>
-                  <button className="group primary-button bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium">
+                  <button className="group primary-button bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium" onClick={newArray}>
                     About More
                     <FaArrowRightLong className="inline-block ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-300" />
                   </button>
@@ -72,7 +87,7 @@ const AboutInner = () => {
               </div>
               <div className="flex gap-5 items-center">
                 <div>
-                  <img src={aboutInnerProfile} />
+                  <img src={AboutUsProfile} />
                 </div>
                 <div>
                   <h6 className="font-Yantramanav text-xl font-medium text-PrimaryColor-0">
@@ -90,4 +105,4 @@ const AboutInner = () => {
     );
 };
 
-export default AboutInner;
+export default AboutUs;
