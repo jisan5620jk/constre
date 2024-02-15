@@ -7,17 +7,19 @@ import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
 import AboutUs from "./AboutUs";
 
 const AboutInnerPage = () => {
-    return (
-        <>
-            <Breadcamp />
-            <AboutUs />
-            <Counter />
-            <Feature />
-            <TeamMember />
-            <Testimonial />
-            <Brand />
-        </>
-    );
+  return (
+    <>
+      <Breadcamp breadCampTitle={"about us"} breadCampLink={"about us"} />
+      <AboutUs />
+      <div className="bg-[#f5f6f8]">
+        <Counter />
+      </div>
+      <Feature />
+      <TeamMember />
+      <Testimonial />
+      <Brand />
+    </>
+  );
 };
 
 export default AboutInnerPage;

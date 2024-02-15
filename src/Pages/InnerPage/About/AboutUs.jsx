@@ -12,19 +12,12 @@ const AboutUs = () => {
 
 
 
-const newArray = ()=>{
-  alert("Mouse Enter")
-}
-
-
-
-
 
 
 
     return (
       <section className="bg-[url('/assets/images/about/about_bg2.jpg')] bg-center bg-no-repeat py-28">
-        <div className="Container grid grid-cols-2">
+        <div className="Container grid grid-cols-2 items-center">
           <div className="inline-block relative z-10">
             <img src={AboutUsImg} />
             <div className="absolute -bottom-10 -left-28 z-20">
@@ -79,7 +72,7 @@ const newArray = ()=>{
             <div className="flex gap-5 mt-10">
               <div>
                 <Link to={"/"}>
-                  <button className="group primary-button bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium" onClick={newArray}>
+                  <button className="group primary-button bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-9 py-4 font-medium">
                     About More
                     <FaArrowRightLong className="inline-block ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-300" />
                   </button>
