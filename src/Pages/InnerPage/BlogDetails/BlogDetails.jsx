@@ -14,7 +14,7 @@ import { BsReplyAllFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import BlogInnerRight from "./BlogInnerRight";
 
-const BlogInner = () => {
+const BlogDetails = () => {
   return (
     <section>
       <div className="Container grid grid-cols-3 gap-[50px]">
@@ -251,4 +251,4 @@ const BlogInner = () => {
   );
 };
 
-export default BlogInner;
+export default BlogDetails;

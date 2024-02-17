@@ -4,6 +4,9 @@ import Home1 from "../Pages/Home1/Home1";
 import AboutInnerPage from "../Pages/InnerPage/About/AboutInnerPage";
 import ContactInnerPage from "../Pages/InnerPage/Contact/ContactInnerPage";
 import BlogInnerPage from "../Pages/InnerPage/Blog/BlogInnerPage";
+import BlogDetails from "../Pages/InnerPage/BlogDetails/BlogDetails";
+import ServiceDetailsInner from "../Pages/InnerPage/ServiceDetails/ServiceDetailsInner";
+import ProjectDetailsInner from "../Pages/InnerPage/ProjectDetails/ProjectDetailsInner";
 
 const router = createBrowserRouter([
   {
@@ -16,16 +19,28 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <AboutInnerPage />
+        element: <AboutInnerPage />,
       },
       {
         path: "/contact",
-        element: <ContactInnerPage />
+        element: <ContactInnerPage />,
       },
       {
         path: "/blog",
-        element: <BlogInnerPage />
-      }
+        element: <BlogInnerPage />,
+      },
+      {
+        path: "/blogdetails",
+        element: <BlogDetails />,
+      },
+      {
+        path: "/servicedetails",
+        element: <ServiceDetailsInner />,
+      },
+      {
+        path: "/projectdetails",
+        element: <ProjectDetailsInner />,
+      },
     ],
   },
 ]);
