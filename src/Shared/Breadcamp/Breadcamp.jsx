@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { IoHome } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const Breadcamp = ({breadCampTitle,breadCampLink}) => {
+const Breadcamp = ({breadCampTitle,url,breadCampLink}) => {
   return (
     <div className="bg-[url('assets/images/breadcamp/breadcamp-bg.jpg')] bg-center flex items-center h-[350px] sm:h-[500px]">
       <div className="Container">
@@ -22,7 +22,7 @@ const Breadcamp = ({breadCampTitle,breadCampLink}) => {
             <FaArrowRightLong className="text-white" />
           </li>
           <li>
-            <Link to={"/"}>
+            <Link to={url}>
               <button className="font-Yantramanav uppercase font-medium text-white flex gap-2 transition-all duration-500 hover:text-SecondaryColor-0">
                 {breadCampLink}
               </button>

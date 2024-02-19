@@ -9,7 +9,7 @@ import AboutUs from "./AboutUs";
 const AboutInnerPage = () => {
   return (
     <>
-      <Breadcamp breadCampTitle={"about us"} breadCampLink={"about us"} />
+      <Breadcamp breadCampTitle={"about us"} url={"/about"} breadCampLink={"about us"} />
       <AboutUs />
       <div className="bg-[#f5f6f8]">
         <Counter />
