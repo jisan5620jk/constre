@@ -7,6 +7,9 @@ import BlogInnerPage from "../Pages/InnerPage/Blog/BlogInnerPage";
 import BlogDetails from "../Pages/InnerPage/BlogDetails/BlogDetails";
 import ServiceDetailsInner from "../Pages/InnerPage/ServiceDetails/ServiceDetailsInner";
 import ProjectDetailsInner from "../Pages/InnerPage/ProjectDetails/ProjectDetailsInner";
+import PricingInner from "../Pages/InnerPage/PricingInner/PricingInner";
+import ServiceInner from "../Pages/InnerPage/Service/ServiceInner";
+import TeamInner from "../Pages/InnerPage/TeamInner/TeamInner";
 
 const router = createBrowserRouter([
   {
@@ -34,12 +37,24 @@ const router = createBrowserRouter([
         element: <BlogDetails />,
       },
       {
+        path: "/serviceinner",
+        element: <ServiceInner />,
+      },
+      {
         path: "/servicedetails",
         element: <ServiceDetailsInner />,
       },
       {
+        path: "/pricing",
+        element: <PricingInner />,
+      },
+      {
         path: "/projectdetails",
         element: <ProjectDetailsInner />,
+      },
+      {
+        path: "/teaminner",
+        element: <TeamInner />,
       },
     ],
   },

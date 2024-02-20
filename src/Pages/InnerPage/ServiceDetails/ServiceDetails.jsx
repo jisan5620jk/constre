@@ -7,7 +7,10 @@ import projectDetialsImg from "../../../../public/assets/images/service-details/
 import { BsBuildings } from "react-icons/bs";
 import { IoMdCheckmark } from "react-icons/io";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
+import { FaRegFilePdf } from "react-icons/fa";
+import { HiDownload } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import AnimatedAccordionPage from "./Accordion/AnimatedAccordionPage";
 
 const ServiceDetails = () => {
   return (
@@ -109,7 +112,7 @@ const ServiceDetails = () => {
                 Globally brand seamless systems through parallel products
                 orchestrate
               </p>
-              <div className="grid grid-cols-2 gap-7 mt-9 mb-24">
+              <div className="grid grid-cols-2 gap-7 mt-9 mb-12">
                 <div className="text-center group">
                   <div className="overflow-hidden">
                     <img
@@ -157,6 +160,12 @@ const ServiceDetails = () => {
                   </div>
                 </div>
               </div>
+              <div className="pb-3">
+                <h1 className="text-[30px] leading-9 md:text-[34px] font-bold mb-4 font-Yantramanav text-PrimaryColor-0 pt-7">
+                  Freequently Asked Question
+                </h1>
+              </div>
+              <AnimatedAccordionPage />
             </div>
             <div className="col-span-1">
               <div className="px-10 pt-7 bg-[#f5f6f8] pb-10 mb-[30px]">
@@ -166,9 +175,66 @@ const ServiceDetails = () => {
                 <ul className="mt-8">
                   <li>
                     <Link to={"/"}>
-                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav mb-4 text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
                         Building Sustainbility Making...
                         <HiMiniArrowLongRight className="text-SecondaryColor-0 text-2xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav mb-4 text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        House Planning & Interior...
+                        <HiMiniArrowLongRight className="text-SecondaryColor-0 text-2xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav mb-4 text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        Building Design & Estimating...
+                        <HiMiniArrowLongRight className="text-SecondaryColor-0 text-2xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav mb-4 text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        House Planning & Interior...
+                        <HiMiniArrowLongRight className="text-SecondaryColor-0 text-2xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group px-6 py-4 bg-white w-full font-Yantramanav text-base font-semibold text-PrimaryColor-0 transition-all duration-500 hover:text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        Architecture Designing and...
+                        <HiMiniArrowLongRight className="text-SecondaryColor-0 text-2xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div className="px-10 pt-7 bg-PrimaryColor-0 pb-10 mb-[30px]">
+                <h5 className="font-Yantramanav font-bold text-[22px] text-white pb-4 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-[#3d3d3d] after:absolute after:bottom-0 after:left-0 after:bg-SecondaryColor-0 after:animate-[dance7_4s_alternate_infinite] after:h-[2px] after:w-5">
+                  DownLoads
+                </h5>
+                <ul className="mt-8">
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group flex gap-2 items-center px-6 py-4 bg-[#2f2f2f] w-full font-Yantramanav mb-4 text-base font-semibold transition-all duration-500 text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        <FaRegFilePdf className="text-2xl text-SecondaryColor-0 transition-all duration-500 group-hover:text-white" />
+                        Service Reports
+                        <HiDownload className="text-SecondaryColor-0 text-xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
+                      </button>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={"/"}>
+                      <button className="group flex gap-2 items-center px-6 py-4 bg-[#2f2f2f] w-full font-Yantramanav text-base font-semibold transition-all duration-500 text-white relative text-left z-10 before:absolute before:top-0 before:right-0 before:bg-SecondaryColor-0 before:-z-10 before:w-0 before:h-full before:transition-all before:duration-500 hover:before:w-full hover:before:left-0">
+                        <FaRegFilePdf className="text-2xl text-SecondaryColor-0 transition-all duration-500 group-hover:text-white" />
+                        Download List
+                        <HiDownload className="text-SecondaryColor-0 text-xl absolute top-1/2 right-5 -translate-y-1/2 transition-all duration-500 group-hover:text-white" />
                       </button>
                     </Link>
                   </li>
