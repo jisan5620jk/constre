@@ -227,14 +227,6 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                   </div>
-
-                  <div className=" px-5 group hover:bg-SecondaryColor-0 ">
-                    <li className="hover:ml-3 duration-300">
-                      <NavLink to="/home3" className="py-2 block">
-                        Service Four
-                      </NavLink>
-                    </li>
-                  </div>
                 </ul>
               </div>
             </NavLink>
@@ -270,8 +262,8 @@ const Navbar = () => {
 
                   <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                     <li className="hover:ml-3 duration-300">
-                      <NavLink to="/home3" className="py-2 block">
-                        Page Four
+                      <NavLink to="/pricinginner" className="py-2 block">
+                        Pricing Plans
                       </NavLink>
                     </li>
                   </div>

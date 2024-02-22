@@ -1,9 +1,17 @@
 import PricingInnerMain from "./PricingInnerMain";
 import { MdCheck } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
+import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
+import PricingFaq from "./Accordion/PricingFaq";
 
 const PricingInner = () => {
   return (
+    <>
+    <Breadcamp 
+    breadCampTitle={"Pricing Plans"}
+    url={"/pringinner"}
+    breadCampLink={"Pricing Plans"}
+    />
     <section className="bg-[#f5f6f8] py-28">
       <div className="Container">
         <div className="text-center">
@@ -65,6 +73,8 @@ const PricingInner = () => {
         </div>
       </div>
     </section>
+    <PricingFaq />
+    </>
   );
 };
 
