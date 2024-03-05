@@ -267,6 +267,13 @@ const Navbar = () => {
                       </NavLink>
                     </li>
                   </div>
+                  <div className=" px-5 group hover:bg-SecondaryColor-0 ">
+                    <li className="hover:ml-3 duration-300">
+                      <NavLink to="/projectinner" className="py-2 block">
+                        Project
+                      </NavLink>
+                    </li>
+                  </div>
                 </ul>
               </div>
             </NavLink>
