@@ -13,9 +13,9 @@ const BlogInnerPage = () => {
     <>
       <Breadcamp breadCampTitle={"Latest Blog"} breadCampLink={"Latest Blog"} />
       <div className="Container py-[120px]">
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-7">
           <div className="col-span-2">
-            <div className="grid gap-7 grid-cols-2">
+            <div className="grid gap-7 grid-cols-1 md:grid-cols-2">
               <BlogMain
                 blogBoxImg={blogImg1}
                 blogBoxPost={"By Constre"}

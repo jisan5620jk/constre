@@ -31,7 +31,7 @@ const BlogInnerRight = () => {
             </h5>
             <Link
               to={"/"}
-              className="flex gap-5 items-center group mb-6 mt-7 pb-6 border-b border-[#d1d1d1]"
+              className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-5 items-center group mb-6 mt-7 pb-6 border-b border-[#d1d1d1]"
             >
               <img src={blogPost1} />
               <div>
@@ -45,7 +45,7 @@ const BlogInnerRight = () => {
             </Link>
             <Link
               to={"/"}
-              className="flex gap-5 items-center group mb-6 mt-7 pb-6 border-b border-[#d1d1d1]"
+              className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-5 items-center group mb-6 mt-7 pb-6 border-b border-[#d1d1d1]"
             >
               <img src={blogPost2} />
               <div>
@@ -57,7 +57,10 @@ const BlogInnerRight = () => {
                 </p>
               </div>
             </Link>
-            <Link to={"/"} className="flex gap-5 items-center group">
+            <Link
+              to={"/"}
+              className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-5 items-center group"
+            >
               <img src={blogPost3} />
               <div>
                 <h4 className="text-PrimaryColor-0 font-Yantramanav font-semibold text-lg leading-6 transition-all duration-500 group-hover:text-SecondaryColor-0">
