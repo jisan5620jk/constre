@@ -70,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="block mb-8 mt-4">
                 <Link to={"#"} className="flex ">
-                  <MdLocationPin className="inline-block text-SecondaryColor-0 text-xl flex-[.1] text-left" />
+                  <MdLocationPin className="inline-block text-SecondaryColor-0 text-xl text-left" />
                   <button
                     type="button"
                     className="inline-block text-[#8e939f] text-left flex-[.9]"

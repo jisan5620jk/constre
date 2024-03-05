@@ -9,6 +9,7 @@ import ServiceDetailsInner from "../Pages/InnerPage/ServiceDetails/ServiceDetail
 import ProjectDetailsInner from "../Pages/InnerPage/ProjectDetails/ProjectDetailsInner";
 import PricingInner from "../Pages/InnerPage/PricingInner/PricingInner";
 import TeamInner from "../Pages/InnerPage/TeamInner/TeamInner";
+import ServiceInner from "../Pages/InnerPage/Service/ServiceInner";
 
 const router = createBrowserRouter([
   {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "/teaminner",
         element: <TeamInner />,
+      },
+      {
+        path: "/serviceinner",
+        element: <ServiceInner />,
       },
     ],
   },
