@@ -49,8 +49,8 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-[100px] bg-[url('/assets/images/footer/footer-bg.jpg')] bg-cover bg-center bg-no-repeat">
-        <div className="Container grid gap-7 md:grid-cols-2 xl:grid-cols-12">
-          <div className="bg-[#212121] py-12 px-12 col-span-4 relative z-10 xl:-mt-[200px] ">
+        <div className="Container grid gap-7 grid-cols-1 md:grid-cols-4 xl:grid-cols-12">
+          <div className="bg-[#212121] py-12 px-12 col-span-4 md:col-span-2 xl:col-span-4 relative z-10 xl:-mt-[200px] ">
             <img src={footerLogo} />
             <p className="font-Archivo font-light text-[#8e939f] pt-7 pb-5">
               Competently are disseminate high-qualityfu whereas viral
@@ -111,7 +111,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-4 sm:col-span-2 lg:col-span-2">
             <h3 className="font-Yantramanav text-white font-medium text-[22px] relative pb-2 before:absolute  before:bottom-0 before:left-0 before:w-[30px] before:h-[2px] before:bg-SecondaryColor-0 mb-4">
               Quick Links
             </h3>
@@ -153,7 +153,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-2">
+          <div className="col-span-4 sm:col-span-2 lg:col-span-2">
             <h3 className="font-Yantramanav text-white font-medium text-[22px] relative pb-2 before:absolute  before:bottom-0 before:left-0 before:w-[30px] before:h-[2px] before:bg-SecondaryColor-0 mb-4">
               Our Services
             </h3>
@@ -195,7 +195,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-4 md:col-span-2 xl:col-span-4">
             <h3 className="font-Yantramanav text-white font-medium text-[22px] relative pb-2 before:absolute  before:bottom-0 before:left-0 before:w-[30px] before:h-[2px] before:bg-SecondaryColor-0 mb-6">
               Latest Blog
             </h3>

@@ -28,7 +28,7 @@ const PricingInnerMain = ({
           <CountUp
             start={-12}
             end={pricingPrice}
-            className="text-[60px] -mt-7 sm:mt-0 md:text-[70px] font-Yantramanav font-bold text-SecondaryColor-0"
+            className="text-[60px] -mt-7 md:text-[70px] font-Yantramanav font-bold text-SecondaryColor-0"
           />
           <div>
             <h5 className="font-Yantramanav font-bold text-[28px] text-SecondaryColor-0 -mb-2 -mt-4">
@@ -71,7 +71,9 @@ const PricingInnerMain = ({
             <FaArrowRightLong className="inline-block ml-1 -rotate-45 group-hover:rotate-0 transition-all duration-300" />
           </button>
         </Link>
-        <h6 className="font-Archivo text-[13px] text-SecondaryColor-0 bg-white py-2 px-16 absolute -top-16 -right-16 rotate-45 transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:top-6 ">Recommended</h6>
+        <h6 className="font-Archivo text-[13px] text-SecondaryColor-0 bg-white py-2 px-16 absolute -top-16 -right-16 rotate-45 transition-all duration-500 opacity-0 group-hover:opacity-100 group-hover:top-6 ">
+          Recommended
+        </h6>
       </div>
     </div>
   );

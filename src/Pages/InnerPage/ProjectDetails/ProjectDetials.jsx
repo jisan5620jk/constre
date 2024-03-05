@@ -16,12 +16,12 @@ import { FaArrowLeftLong, FaArrowRightLong, FaXTwitter } from "react-icons/fa6";
 
 const ProjectDetials = () => {
   return (
-    <section>
+    <section className="pt-32 pb-24">
       <div className="Container">
         <div>
           <img src={projectDetailsimg} />
         </div>
-        <div className="grid grid-cols-3 gap-7">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
           <div className="col-span-2">
             <h2 className="font-Yantramanav font-bold text-[34px] text-PrimaryColor-0 mt-8 mb-3">
               Construction Building Designing
@@ -42,31 +42,31 @@ const ProjectDetials = () => {
             <h2 className="font-Yantramanav font-bold text-[34px] text-PrimaryColor-0 mb-8">
               Project Important Checklist
             </h2>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
               <ul className="flex flex-col gap-5">
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Expertise Engineers
                 </li>
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Dramatically initiates corporate
                 </li>
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Monotonectally strategize interactive
                 </li>
               </ul>
               <ul className="flex flex-col gap-5">
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Authoritatively conceptualize world-class
                 </li>
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Conveniently plagiarize into innovatio
                 </li>
-                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px]">
+                <li className="flex items-center gap-2 font-Archivo text-[#575f66] text-[17px] lg:text-[15px]">
                   <IoIosCheckmarkCircleOutline className="text-2xl text-SecondaryColor-0" />
                   Enthusiastically synthesize
                 </li>
@@ -80,7 +80,7 @@ const ProjectDetials = () => {
               reliable platforms for market positioning best practices. Globally
               brand seamless systems through parallel products orchestrate
             </p>
-            <div className="grid grid-cols-2 gap-7 mt-9 mb-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-9 mb-12">
               <div className="text-center group">
                 <div className="overflow-hidden">
                   <img
@@ -93,11 +93,11 @@ const ProjectDetials = () => {
                     Design Architect
                   </h4>
                   <ul>
-                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2">
+                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2 lg:text-sm xl:text-base">
                       <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                       Construction Equipments
                     </li>
-                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo">
+                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo lg:text-sm xl:text-base">
                       <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                       Expert’s Engineers
                     </li>
@@ -116,11 +116,11 @@ const ProjectDetials = () => {
                     Build Construction
                   </h4>
                   <ul>
-                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2">
+                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2 lg:text-sm xl:text-base">
                       <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                       Construction Equipments
                     </li>
-                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo">
+                    <li className="flex items-center gap-2 text-[#575f66] font-Archivo lg:text-sm xl:text-base">
                       <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                       Expert’s Engineers
                     </li>
@@ -129,7 +129,7 @@ const ProjectDetials = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-2 lg:col-span-1">
             <div className="bg-white [filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] -mt-[65px]">
               <h4 className="bg-SecondaryColor-0 text-white text-[22px] font-Yantramanav font-medium px-10 py-4">
                 Project Information
@@ -221,7 +221,7 @@ const ProjectDetials = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#f5f6f8] w-full px-10 flex items-center justify-between py-9 relative before:absolute before:left-1/2 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:w-[2px] before:h-[50px] before:opacity-20 before:bg-PrimaryColor-0">
+        <div className="bg-[#f5f6f8] w-full px-10 flex flex-col sm:flex-row items-center justify-between py-9 relative before:absolute before:left-1/2 before:top-1/2 before:-translate-y-1/2 before:-translate-x-1/2 before:h-[50px] before:opacity-20 before:bg-PrimaryColor-0 before:w-0 sm:before:w-[2px]">
           <div className="flex gap-5 items-center">
             <Link>
               <button className="w-[50px] h-[50px] flex items-center justify-center bg-white text-SecondaryColor-0 relative z-10 transition-all duration-500 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:-z-10 before:scale-0 before:transition-all before:duration-500 hover:before:scale-100 hover:text-white">
@@ -239,7 +239,7 @@ const ProjectDetials = () => {
               </h3>
             </div>
           </div>
-          <div className="flex gap-5 items-center text-right">
+          <div className="flex gap-5 items-center sm:text-right mt-5 sm:mt-0">
             <div>
               <Link to={"/"}>
                 <button className="font-Archivo text-SecondaryColor-0 text-[17px]">
