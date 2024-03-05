@@ -16,7 +16,7 @@ const PricingPage = () => {
               materials. Continually drive client-based e-markets
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-7 mt-14">
+          <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-7 mt-14">
             <PricingInnerMain
               pricingTitle={"Business"}
               pricingPrice={13}

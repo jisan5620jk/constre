@@ -7,7 +7,7 @@ const Breadcamp = ({breadCampTitle,url,breadCampLink}) => {
   return (
     <div className="bg-[url('assets/images/breadcamp/breadcamp-bg.jpg')] bg-center flex items-center h-[350px] sm:h-[500px]">
       <div className="Container">
-        <h1 className="font-Yantramanav font-bold text-[56px] text-white uppercase">
+        <h1 className="font-Yantramanav font-bold text-4xl sm:text-[56px] text-white uppercase mb-2 sm:mb-5">
           {breadCampTitle}
         </h1>
         <ul className="flex gap-5 items-center">

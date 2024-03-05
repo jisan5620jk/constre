@@ -17,7 +17,7 @@ const ServiceDetails = () => {
     <>
       <section className="py-28">
         <div className="Container">
-          <div className="grid grid-cols-3 gap-7">
+          <div className="grid grid-cols-2 lg:grid-cols-3 gap-7">
             <div className="col-span-2">
               <div>
                 <img src={projectDetialsImg} />
@@ -46,12 +46,12 @@ const ServiceDetails = () => {
                 </p>
               </div>
               <div className="mt-8">
-                <div className="grid grid-cols-2 gap-7 mb-7">
-                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full">
-                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white float-left mr-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-7 mb-7">
+                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full flex flex-col sm:flex-row gap-5">
+                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white mb-5">
                       <BsBuildings className="text-5xl text-SecondaryColor-0" />
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h3 className="font-Yantramanav font-semibold text-[22px] text-PrimaryColor-0 transition-all duration-500 group-hover:text-white -mt-2">
                         Design Architecht
                       </h3>
@@ -60,11 +60,11 @@ const ServiceDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full">
-                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white float-left mr-6">
+                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full flex flex-col sm:flex-row gap-5">
+                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white mb-5">
                       <HiOutlineHomeModern className="text-5xl text-SecondaryColor-0" />
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h3 className="font-Yantramanav font-semibold text-[22px] text-PrimaryColor-0 transition-all duration-500 group-hover:text-white -mt-2">
                         Modern Equipment
                       </h3>
@@ -74,12 +74,12 @@ const ServiceDetails = () => {
                     </div>
                   </div>
                 </div>
-                <div className="grid grid-cols-2 gap-7">
-                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full">
-                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white float-left mr-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-7 mb-7">
+                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full flex flex-col sm:flex-row gap-5">
+                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white mb-5">
                       <MdOutlineSupportAgent className="text-5xl text-SecondaryColor-0" />
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h3 className="font-Yantramanav font-semibold text-[22px] text-PrimaryColor-0 transition-all duration-500 group-hover:text-white -mt-2">
                         24/7 Hrs Supports
                       </h3>
@@ -88,11 +88,11 @@ const ServiceDetails = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full">
-                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white float-left mr-6">
+                  <div className="[filter:drop-shadow(0px_5px_30px_rgba(117,117,117,0.1))] bg-white group px-8 pt-11 pb-7 relative z-10 before:absolute before:top-0 before:left-0 before:w-[3px] before:h-full before:bg-SecondaryColor-0 before:-z-10 before:transition-all before:duration-500 hover:before:w-full flex flex-col sm:flex-row gap-5">
+                    <div className="w-[70px] h-[70px] flex justify-center items-center bg-[#f5f6f8] transition-all duration-500 group-hover:bg-white mb-5">
                       <GiFinishLine className="text-5xl text-SecondaryColor-0" />
                     </div>
-                    <div>
+                    <div className="flex-1">
                       <h3 className="font-Yantramanav font-semibold text-[22px] text-PrimaryColor-0 transition-all duration-500 group-hover:text-white -mt-2">
                         Finished Timely
                       </h3>
@@ -112,7 +112,7 @@ const ServiceDetails = () => {
                 Globally brand seamless systems through parallel products
                 orchestrate
               </p>
-              <div className="grid grid-cols-2 gap-7 mt-9 mb-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-9 mb-12">
                 <div className="text-center group">
                   <div className="overflow-hidden">
                     <img
@@ -125,11 +125,11 @@ const ServiceDetails = () => {
                       Design Architect
                     </h4>
                     <ul>
-                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2">
+                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2 lg:text-sm xl:text-base">
                         <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                         Construction Equipments
                       </li>
-                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo">
+                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo lg:text-sm xl:text-base">
                         <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                         Expert’s Engineers
                       </li>
@@ -148,11 +148,11 @@ const ServiceDetails = () => {
                       Build Construction
                     </h4>
                     <ul>
-                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2">
+                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo mb-2 lg:text-sm xl:text-base">
                         <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                         Construction Equipments
                       </li>
-                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo">
+                      <li className="flex items-center gap-2 text-[#575f66] font-Archivo lg:text-sm xl:text-base">
                         <IoMdCheckmark className="text-SecondaryColor-0 text-xl" />
                         Expert’s Engineers
                       </li>
@@ -167,7 +167,7 @@ const ServiceDetails = () => {
               </div>
               <AnimatedAccordionPage />
             </div>
-            <div className="col-span-1">
+            <div className="col-span-2 lg:col-span-1">
               <div className="px-10 pt-7 bg-[#f5f6f8] pb-10 mb-[30px]">
                 <h5 className="font-Yantramanav font-bold text-[22px] pb-4 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-[#1717171a] after:absolute after:bottom-0 after:left-0 after:bg-SecondaryColor-0 after:animate-[dance7_4s_alternate_infinite] after:h-[2px] after:w-5">
                   Categories

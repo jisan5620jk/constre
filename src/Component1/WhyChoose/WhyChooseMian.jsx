@@ -15,7 +15,7 @@ const WhyChooseMian = () => {
         <div className="relative inline-block">
           <img
             src={whyChooseImg}
-            className="w-full ml-0 mb-7 lg:mb-0 lg:w-[inherit] lg:max-w-[inherit] lg:-ml-[28rem] 2xl:-ml-[21rem]"
+            className="w-full ml-0 mb-7 lg:-mb-[6px] lg:w-[inherit] lg:max-w-[inherit] lg:-ml-[28rem] 2xl:-ml-[21rem]"
           />
           <div className="h-20 w-20 bg-SecondaryColor-0 flex items-center justify-center absolute bottom-10 right-8 sm:right-12 md:bottom-12 md:right-16 md:h-[120px] md:w-[120px] lg:bottom-6 lg:right-20">
             <Link to={"/"}>

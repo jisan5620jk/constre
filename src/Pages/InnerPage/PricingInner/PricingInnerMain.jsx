@@ -20,15 +20,15 @@ const PricingInnerMain = ({
 }) => {
   return (
     <div className="group bg-[url('/assets/images/pricing/pricing_shape.png')] bg-cover bg-center p-[22px] overflow-hidden relative before:absolute before:top-0 before:left-0 before:w-full before:h-full before:border-0 before:border-PrimaryColor-0 before:z-10 before:opacity-70 before:transition-all before:duration-500 hover:before:border-[22px]">
-      <div className="bg-white pt-11 pb-[50px] px-[42px] relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-PrimaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 overflow-hidden group-hover:before:scale-100">
+      <div className="bg-white p-5 sm:pt-11 sm:pb-[50px] sm:px-[42px] relative z-10 before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-PrimaryColor-0 before:-z-10 before:transition-all before:duration-500 before:scale-0 overflow-hidden group-hover:before:scale-100">
         <h6 className="text-[22px] font-Yantramanav font-medium text-PrimaryColor-0 transition-all duration-500 group-hover:text-white mb-7">
           {pricingTitle}
         </h6>
-        <div className="flex gap-[6px] mb-9">
+        <div className="flex gap-[6px] mb-2 sm:mb-9">
           <CountUp
             start={-12}
             end={pricingPrice}
-            className="text-3xl sm:text-[50px] md:text-[70px] font-Yantramanav font-bold text-SecondaryColor-0"
+            className="text-[60px] -mt-7 sm:mt-0 md:text-[70px] font-Yantramanav font-bold text-SecondaryColor-0"
           />
           <div>
             <h5 className="font-Yantramanav font-bold text-[28px] text-SecondaryColor-0 -mb-2 -mt-4">
