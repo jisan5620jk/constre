@@ -63,9 +63,18 @@ body {
   transition: 0.5s;
 }
 
+.project-inner .filter-item:hover .project-box,
 .swiper-slide.swiper-slide-active .project-box {
   opacity: 1;
   bottom: 40px;
+}
+
+.project-inner .filter-item {
+  margin: 14px;
+}
+
+.project-inner .py-5{
+  padding: 0;
 }
 
 .pagination-bullet {

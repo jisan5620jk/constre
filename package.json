@@ -12,6 +12,7 @@
   "dependencies": {
     "ezodometer-react": "^1.0.0",
     "fslightbox-react": "^1.7.6",
+    "isotope-layout": "^3.0.6",
     "keen-slider": "^6.8.6",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
