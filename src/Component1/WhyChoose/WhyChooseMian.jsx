@@ -21,7 +21,7 @@ const WhyChooseMian = () => {
             <Link to={"/"}>
               <button
                 onClick={() => setToggler(!toggler)}
-                className="h-8 w-8 rounded-full bg-white flex justify-center items-center text-lg text-SecondaryColor-0 animate-[play-btn_4s_linear_infinite] md:text-2xl md:h-16 md:w-16"
+                className="h-8 w-8 rounded-full bg-white flex justify-center items-center text-lg text-SecondaryColor-0 animate-[play-btn_2s_linear_infinite] md:text-2xl md:h-16 md:w-16"
               >
                 <IoPlaySharp />
               </button>
