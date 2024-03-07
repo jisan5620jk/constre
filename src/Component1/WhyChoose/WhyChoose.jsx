@@ -3,7 +3,6 @@ import Counter from "./Counter";
 import WhyChooseMian from "./WhyChooseMian";
 
 const WhyChoose = () => {
-
   return (
     <section className="bg-[#f5f6f8] relative z-10">
       <WhyChooseMian />

@@ -14,25 +14,23 @@ import { useState, useEffect } from "react";
 import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
-
   //sticky
 
-   useEffect(() => {
-     window.addEventListener("scroll", isSticky);
-     return () => {
-       window.removeEventListener("scroll", isSticky);
-     };
-   });
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
 
-   /* Method that will fix header after a specific scrollable */
-   const isSticky = (e) => {
-     const header = document.querySelector(".header-section");
-     const scrollTop = window.scrollY;
-     scrollTop >= 250
-       ? header.classList.add("is-sticky")
-       : header.classList.remove("is-sticky");
-   };
-
+  /* Method that will fix header after a specific scrollable */
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header.classList.add("is-sticky")
+      : header.classList.remove("is-sticky");
+  };
 
   // modal openar
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +38,6 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-
 
   return (
     <nav

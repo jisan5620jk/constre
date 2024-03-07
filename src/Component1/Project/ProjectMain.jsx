@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
-const ProjectMain = ({projectImg,projectSubTilte,projectTitle,projectIcon}) => {
+const ProjectMain = ({
+  projectImg,
+  projectSubTilte,
+  projectTitle,
+  projectIcon,
+}) => {
   return (
     <div className="py-5 relative group ">
       <img src={projectImg} />
