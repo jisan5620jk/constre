@@ -21,11 +21,11 @@ body {
 }
 
 .primary-button {
-  @apply relative bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-PrimaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-PrimaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
+  @apply relative bg-SecondaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-PrimaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-PrimaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[crissCrossLeft_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[crissCrossRight.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
 }
 
 .primary-button2 {
-  @apply relative bg-PrimaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-SecondaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-SecondaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[criss-cross-left_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[criss-cross-right.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
+  @apply relative bg-PrimaryColor-0 text-white inline-block font-Yantramanav px-5 py-3 font-medium before:absolute before:top-2/4 z-[1] before:w-[20px] before:h-[20px] before:bg-SecondaryColor-0 before:rounded-[50%] before:-left-5 before:-translate-x-1/2 before:-z-[1] before:-translate-y-1/2 after:absolute after:top-2/4 after:-right-[20px] after:translate-x-1/2 after:-translate-y-1/2 after:w-[20px] after:h-[20px] after:bg-SecondaryColor-0 before:transition-all before:duration-500 after:transition-all after:-z-[1] after:duration-500 after:rounded-[50%] hover:before:animate-[crissCrossLeft_0.8s_both] hover:before:[animation-direction:alternate] hover:after:animate-[crissCrossRight.8s_both] hover:after:[animation-direction:alternate] overflow-hidden transition-all duration-300 sm:px-9 sm:py-4;
 }
 
 .section-sub-title {
@@ -147,7 +147,7 @@ body {
   width: 50px;
   color: #fff;
   cursor: pointer;
-  animation: movebtn 3s ease-in-out infinite;
+  animation: movebtn;
   transition: all 0.5s ease-in-out;
   display: flex;
   justify-content: center;
@@ -161,62 +161,12 @@ body {
   border: 2px solid #ff5e14;
 }
 
-@keyframes movebtn {
-  0% {
-    transform: translateY(0px);
-  }
-  25% {
-    transform: translateY(20px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
-  75% {
-    transform: translateY(-20px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
-
 @keyframes headerSlideDown {
   0% {
     margin-top: -150px;
   }
   100% {
     margin-top: 0;
-  }
-}
-
-@keyframes criss-cross-left {
-  0% {
-    left: -20px;
-  }
-  50% {
-    left: 50%;
-    width: 20px;
-    height: 20px;
-  }
-  100% {
-    left: 50%;
-    width: 375px;
-    height: 375px;
-  }
-}
-
-@keyframes criss-cross-right {
-  0% {
-    right: -20px;
-  }
-  50% {
-    right: 50%;
-    width: 20px;
-    height: 20px;
-  }
-  100% {
-    right: 50%;
-    width: 375px;
-    height: 375px;
   }
 }
 
@@ -230,32 +180,7 @@ body {
   }
 }
 
-@keyframes dance2 {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-
-  50% {
-    -webkit-transform: translate3d(25px, -25px, 0);
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, -25px, 25px);
-  }
-}
-
-@keyframes rotateme {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes play-btn {
+@keyframes playbtn {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(254, 254, 254, 0.3),
       0 0 0 10px rgba(254, 254, 254, 0.3), 0 0 0 20px rgba(254, 254, 254, 0.3);
@@ -267,61 +192,5 @@ body {
       0 0 0 20px rgba(254, 254, 254, 0.3), 0 0 0 30px rgba(254, 254, 254, 0);
     box-shadow: 0 0 0 10px rgba(254, 254, 254, 0.3),
       0 0 0 20px rgba(254, 254, 254, 0.3), 0 0 0 30px rgba(254, 254, 254, 0);
-  }
-}
-
-@keyframes Dance {
-  0% {
-    -webkit-transform: translateX(0px);
-  }
-
-  50% {
-    -webkit-transform: translateX(35px);
-  }
-
-  100% {
-    -webkit-transform: translateX(0px);
-  }
-}
-
-@keyframes shrink {
-  0% {
-    -webkit-transform: translateY(20px) translateX(-50%);
-  }
-
-  50% {
-    -webkit-transform: translateY(-20px) translateX(-50%);
-  }
-
-  100% {
-    -webkit-transform: translateY(0px) translateX(-50%);
-  }
-}
-
-@keyframes dance7 {
-  0% {
-    -webkit-transform: translateX(0px);
-  }
-
-  100% {
-    -webkit-transform: translateX(235px);
-  }
-}
-
-@keyframes movebtn {
-  0% {
-    transform: translateY(0px);
-  }
-  25% {
-    transform: translateY(10px);
-  }
-  50% {
-    transform: translateY(0px);
-  }
-  75% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0px);
   }
 }
