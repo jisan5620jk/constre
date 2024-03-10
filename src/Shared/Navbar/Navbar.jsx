@@ -232,7 +232,7 @@ const Navbar = () => {
                   <BiChevronDown className="ml-1" />
                 </span>
                 <div className="absolute pt-5 lg:pt-8 z-20">
-                  <ul className="shadow-lg hidden group-hover:block rounded-smtext-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
+                  <ul className="shadow-lg hidden group-hover:block rounded-sm text-white w-[200px] text-left transition-all duration-500 text-sm sm:text-base py-4 bg-[#171717] ">
                     <div className=" px-5 group hover:bg-SecondaryColor-0 ">
                       <li className="hover:ml-3 duration-300">
                         <NavLink to="/serviceinner" className="py-2 block">

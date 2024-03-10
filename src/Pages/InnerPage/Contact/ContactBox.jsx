@@ -4,7 +4,7 @@ import { FaEnvelope, FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
 const ContactBox = () => {
     return (
       <section>
-        <div className="Container grid grid-cols-3 gap-7 mt-[120px] mb-24">
+        <div className="Container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-[120px] mb-24">
           <div className="bg-[#f5f6f8] text-center group pt-10 pb-9">
             <div className="w-[100px] h-[100px] flex items-center justify-center bg-white rounded-full text-SecondaryColor-0 text-4xl relative m-auto z-10 transition-all duration-500 group-hover:text-white before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-SecondaryColor-0 before:transition-all before:duration-500 before:scale-0 before:-z-10 before:rounded-full group-hover:before:scale-100">
               <FaPhoneVolume />

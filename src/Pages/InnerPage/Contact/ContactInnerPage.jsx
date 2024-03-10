@@ -5,13 +5,16 @@ import ContactLocation from "./ContactLocation";
 
 const ContactInnerPage = () => {
     return (
-        <>
-            <Breadcamp breadCampTitle={"Contact Us"}
-            breadCampLink={"Contact Us"}/>
-            <ContactBox />
-            <ContactForm />
-            <ContactLocation />
-        </>
+      <>
+        <Breadcamp
+          breadCampTitle={"Contact Us"}
+          breadCampLink={"Contact Us"}
+          url={"/contactinner"}
+        />
+        <ContactBox />
+        <ContactForm />
+        <ContactLocation />
+      </>
     );
 };
 

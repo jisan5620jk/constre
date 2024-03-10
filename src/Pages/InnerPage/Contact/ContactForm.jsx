@@ -2,13 +2,13 @@ const ContactForm = () => {
     return (
       <section>
         <div className="Container -mb-20 relative z-10">
-          <div className="border-t-[6px] border-SecondaryColor-0 bg-PrimaryColor-0 px-[50px] py-20 text-center w-[910px] m-auto">
+          <div className="border-t-[6px] border-SecondaryColor-0 bg-PrimaryColor-0 px-[50px] py-20 text-center w-[100%] md:w-[700px] lg:w-[910px] m-auto">
             <h5 className="section-sub-title">Contact Us</h5>
             <h1 className="text-[30px] leading-9 md:text-[40px] font-bold mb-5 font-Yantramanav text-white pt-3">
               Get In Touch Contact Us
             </h1>
             <form action="#" method="post">
-              <div className="flex gap-6 mt-10">
+              <div className="flex flex-col sm:flex-row gap-0 sm:gap-6 mt-10">
                 <input
                   type="text"
                   name="name"
