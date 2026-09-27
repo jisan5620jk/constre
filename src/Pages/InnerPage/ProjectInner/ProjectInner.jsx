@@ -1,12 +1,12 @@
 import React from "react";
 import Isotope from "isotope-layout";
 import ProjectMain from "../../../Component1/Project/ProjectMain";
-import ProjectImg1 from "/assets/images/project/projects01.png";
-import ProjectImg2 from "/assets/images/project/projects02.png";
-import ProjectImg3 from "/assets/images/project/projects03.png";
-import ProjectImg4 from "/assets/images/project/projects04.png";
-import ProjectImg5 from "/assets/images/project/projects05.png";
-import ProjectImg6 from "/assets/images/project/projects06.png";
+import ProjectImg1 from "/assets/images/project/Projects01.png";
+import ProjectImg2 from "/assets/images/project/Projects02.png";
+import ProjectImg3 from "/assets/images/project/Projects03.png";
+import ProjectImg4 from "/assets/images/project/Projects04.png";
+import ProjectImg5 from "/assets/images/project/Projects05.png";
+import ProjectImg6 from "/assets/images/project/Projects06.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Breadcamp from "../../../Shared/Breadcamp/Breadcamp";
